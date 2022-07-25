@@ -138,6 +138,7 @@ main {
 					}
 				}
 			}
+			
 		}
 	}
 
@@ -203,6 +204,7 @@ main {
 	border-top: $borderWidth solid #fff;
 	position: relative;
 	transition: 0.3;
+	cursor: pointer;	
 
 	&::before,
 	&::after {
@@ -245,9 +247,11 @@ main {
 		&::after {
 			bottom: 53%;
 			transform: translateY(50%) rotate(-45deg);
+			background-color: #000;
 		}
 		&::before {
-			transform: translateY(-50%) rotate(45deg);		
+			transform: translateY(-50%) rotate(45deg);
+			background-color: #000;
 		}
 	}
 
